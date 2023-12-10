@@ -1,0 +1,167 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+.main{
+    height: 100vh;
+width: 100%;
+background-color: #000;
+overflow: hidden;
+}
+.nav{
+    height: 70px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.nav-min{
+    height: 70px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-min i{
+    color: #fff;
+    font-size: 20px;
+}
+.con1 ul{
+    display: flex;
+    gap: 30px;
+}
+.con1 li{
+    list-style: none;
+}
+.con1 a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+    
+    
+     transition: 0.5s;
+}
+.con1 a::after{
+    content: '';
+    background-color: coral;
+    width: 0%;
+    margin: auto;
+    display: block;
+    height: 2px;
+}
+ .con1 a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+} 
+.con1 a:hover{
+    color: coral;
+}
+
+.icon1 i{
+    color: #fff;
+    margin: 0px 8px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.icon1 i:hover{
+    color: coral;
+}
+.hero{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+}
+.con2{
+    width: 60%;
+    min-height: 40%;
+    position: relative;
+    padding: 70px 60px;
+    margin-top: -1%;
+}
+.con2 h1{
+    font-size: 80px;
+    line-height: 65px;
+    font-weight: 700;
+    margin: 35px 0px;
+    color: #fff;
+   
+}
+.con2 p{
+    margin: 35px 0px;
+    color: #fff;
+    width: 80%;
+}
+.con2 button{
+    padding: 7px 25px;
+    border: none;
+    margin: 0px 8px;
+    background-color: coral;
+    color: #fff;
+    transition: 0.5s;
+}
+.con2 button:hover{
+    background-color: transparent;
+    color: coral;
+    scale: 1.1;
+    cursor: pointer;
+}
+#btn1{
+    padding: 7px 25px;
+    border: none;
+    margin: 0px 8px;
+    background-color: transparent;
+    color: #fff;
+}
+#btn1:hover{
+    background-color: coral;
+    color: #fff;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.min-con{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.im{
+    width: 13%;
+    height: 80px;
+    transition: 0.5s;
+    margin-top: 15%;
+}
+.im img{
+    width: 100%;
+    height: 100%;
+}
+.im:hover{
+    filter: drop-shadow(2px 2px 9px #fff);
+    transform: translateY(-20px);
+}
+.con2-img{
+    width: 33%;
+    height: 85%;
+    position: absolute;
+    left: 60%;
+}
+.con2-img img{
+    width: 90%;
+    height: 101%;
+    transition: 0.5s;
+}
+.con2-img img:hover{
+    filter: drop-shadow(5px 5px 10px #ffffff6a);
+    scale: 1.06;
+}
+
